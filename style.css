@@ -3,8 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body::before{
+    background-color: black;
+    height: 2050px;
+}
 #bacimg::before{
-    background: url(./img.png) no-repeat center center/cover ;
+    background: url(./capture.png) no-repeat center center/cover ;
     content: "";
     position: absolute;
     width: 100%;
@@ -33,10 +37,12 @@
 .list{
     display: flex;
     list-style-type: none;
-    margin-left:650px;
+    margin-left:540px;
     /* background-color: black; */
     margin-bottom: 10px;
-    color: burlywood;  
+    color: burlywood;
+    /* font-size: 10px;  */
+    font-size: 20px;
 }
 .list :hover{
     background-color: black;
@@ -48,7 +54,7 @@
     padding: 15px;
 }
 .h1{
-    margin-left: 30px;
+    margin-left: 50px;
     color: burlywood;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
@@ -56,19 +62,21 @@
 .h3{
     margin-top: 50px;
     margin-left: 40px;
-    color: bisque;
+    color: white;
     /* background-color: black; */
     width: fit-content;
+    font-size: 30px;
 }
 #h1{
     margin-top: 30px;
     margin-left: 60px;
-    color: bisque;
+    color: white;
     /* background-color: black; */
     width: fit-content;
+    font-size: 50px;
 }
 .para{
-    color: bisque;
+    color: white;
     margin-top: 30px;
     margin-left: 60px;
     margin-right: 750px;
@@ -77,21 +85,21 @@
 .but{
     margin-top: 70px;
     margin-left: 120px;
-    padding: 5px 20px 5px 20px;
+    padding: 10px 50px 10px 50px;
     border-radius: 20px;
     background-color: black;
     color: blanchedalmond;
     border: transparent;
 }
 #secimg::before{
-    background: url("./front.jpg") no-repeat center center/cover ;
+    background: url("./qwe.jpg") no-repeat center center/cover ;
     content: "";
     position: absolute;
     width: 100%;
     z-index: -1;
-    height: 750px;
-    opacity: 0.9;
-    margin-top: 119px;
+    height: 1150px;
+    opacity: 1.9;
+    margin-top: 70px;
 }
 .cla{
     display: flex;
@@ -105,7 +113,7 @@
     width: 150px;
 }
 #fir{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.644);
     color: white;
     width: fit-content;
     /* margin-right: 580px; */
@@ -122,7 +130,7 @@
     width: 150px;
 }
 #seco{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.795);
     color: white;
     width: fit-content;
     padding: 0px 7px 7px 7px;
@@ -130,7 +138,7 @@
     text-align: center;
 }
 #thid{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.644);
     color: white;
     width: fit-content;
     padding: 0px 7px 7px 7px;
@@ -165,7 +173,7 @@
     left: 38px;
 }
 #hro{
-    margin-top: 100px;
+    margin-top: 40px;
     margin-left: 120px;
     margin-right: 120px;
     color: black;
@@ -177,29 +185,362 @@
     width: fit-content;
     margin-left: 535px;
     bottom: 55px;
+    color: whitesmoke;
 }
 #sch{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 30px;
     width: fit-content;
-    padding: 10px;
-    margin-left: 30px;
-}
-#divv{
-    border: 2px solid black;
-    border-radius: 30px;
-    width: 250px;
+    padding: 25px 7px 2px 7px;
+    margin-left: 100px;
     position: relative;
-    bottom: 200px;
-    left: 500px;
+    top: 80px;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: whitesmoke;
+}
+.picoimg{
+    width: 250px;
+    height: 150px;
+    border-radius: 25px 25px 0px 0px;
+    /* position: relative; */
+    /* left: 1px; */
+    /* background-color: aquamarine; */
+}
+.pico{
+    /* border: 2px solid black; */
     background-color: black;
     color: burlywood;
+    margin-right: 1195px;
+    position: absolute;
+    top: 1030px;
+    left: 500px;
+    border-radius: 25px 25px 0px 0px;
     text-align: center;
-    /* padding: 07px; */
+    padding: 0px 2px 9px 2px;
 }
-.ert{
+.seco{
+    background-color: black;
+    color: burlywood;
+    border-radius: 25px 25px 0px 0px;
+    text-align: center;
+    padding: 0px 2px 9px 2px;
+    margin-right: 1095px;
+    position: absolute;
+    top: 1030px;
+    left: 900px;
+}
+.secoimg{
     width: 250px;
-    height: 190px;
-    border-radius: 35px;
+    height: 150px;
+    border-radius: 25px 25px 0px 0px;
+}
+.thido{
+    background-color: rgb(0, 0, 0);
+    color: burlywood;
+    border-radius: 25px 25px 0px 0px;
+    text-align: center;
+    padding: 0px 2px 9px 2px;
+    margin-right: 1095px;
+    position: absolute;
+    top: 1400px;
+    left: 500px;
+}
+.thidoimg{
+    width: 250px;
+    height: 150px;
+    border-radius: 25px 25px 0px 0px;
+}
+.fouro{
+    background-color: rgb(0, 0, 0);
+    color: burlywood;
+    border-radius: 25px 25px 0px 0px;
+    text-align: center;
+    padding: 0px 2px 9px 2px;
+    margin-right: 1095px;
+    position: absolute;
+    top: 1400px;
+    left: 900px;
+}
+.fouroimg{
+    width: 250px;
+    height: 150px;
+    border-radius: 25px 25px 0px 0px;
+}
+#thiidimg::before{
+    background: url("./thid.jpg") no-repeat center center/cover ;
+    content: "";
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 800px;
+    opacity: 1.9;
+    margin-top: 307px;
+}
+#thiiid{
+    width: fit-content;
+    background-color: rgba(128, 128, 128, 0.397);
+    margin-left: 100px;
+    margin-right: 650px;
     position: relative;
+    top: 430px;
+    padding: 10px;
+}
+#fouuuur{
+    width: fit-content;
+    background-color: rgba(128, 128, 128, 0.39);
+    margin-left: 100px;
+    margin-right: 650px;
+    position: relative;
+    top: 460px;
+    padding: 10px;
+}
+.meet{
+      background-color: rgba(0, 0, 0, 0.719);
+      color: burlywood;
+      margin-left: 780px;
+      margin-right: 100px;
+      border-radius: 20px;
+      padding: 35px;
+      position: relative;
+      bottom: 115px;
+}
+#fffourimg::before{
+    background: url("./com.webp") no-repeat center center/cover ;
+    content: "";
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 680px;
+    opacity: 1.9;
+}
+.sechr{
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    top: 110px;
+}
+.righead{
+         margin-left: 120px;
+         position: relative;
+         top: 100px;
+         /* background-color: blue; */
+}
+/* .second{
+    background-color: black;
+    color: burlywood;
+    border-radius: 25px 25px 0px 0px;
+    text-align: center;
+    padding: 0px 2px 9px 2px;
+    position: absolute;
+    left: 80px;
+    top: 2770px;
+    width: 253px;
+    
+} */
+#divss{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    position: relative;
+    top: 230px;
+    /* background-color: bisque; */
+}
+.firstimg{
+    width: 280px;
+    height: 200px;
+    border-radius: 25px 25px 0px 0px;
+}
+.secondimg{
+    width: 280px;
+    height: 200px;
+    border-radius: 25px 25px 0px 0px;
+}
+.thirdimg{
+    width: 280px;
+    height: 200px;
+    border-radius: 25px 25px 0px 0px;
+}
+.fourthimg{
+    width: 280px;
+    height: 200px;
+    border-radius: 25px 25px 0px 0px;
+}
+.first{
+    background-color: rgba(128, 128, 128, 0.158);
+    color: burlywood;
+    border-radius: 25px 25px 0px 0px;
+    text-align: center;
+    padding: 0px 0px 15px 0px;
+}
+.second{
+    background-color: rgba(0, 0, 0, 0.616);
+    color: burlywood;
+    border-radius: 25px 25px 0px 0px;
+    text-align: center;
+    padding: 0px 0px 15px 0px;
+}
+.third{
+    background-color: rgba(0, 0, 0, 0.616);
+    color: burlywood;
+    border-radius: 25px 25px 0px 0px;
+    text-align: center;
+    padding: 0px 0px 15px 0px;
+}
+.fourth{
+    background-color: rgba(128, 128, 128, 0.158);
+    color: burlywood;
+    border-radius: 25px 25px 0px 0px;
+    text-align: center;
+    padding: 0px 0px 15px 0px;
+}
+#lolo{
+      margin: 10px;
+}
+#bat{
+    padding: 13px;
+    border-radius: 100%;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    background-color: chocolate;
+    border: transparent;
+}
+#baat{
+    padding: 13px;
+    border-radius: 100%;
+    position: relative;
+    top: 30px;
+    left: 1228px;
+    background-color: chocolate;
+    border: transparent;
+}
+#mkl::before{
+    background: url("./uni.jpg") no-repeat center center/cover ;
+    content: "";
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 750px;
+    opacity: 1.9;
+    margin-top: 252px;
+}
+.seclasth{
+    /* background-color: blueviolet; */
+    position: relative;
+    top: 400px;
+    font-size: 21px;
+    margin-left: 60px;
+    margin-right: 600px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#ranking{
+    background-color: rgba(0, 0, 0, 0.589);
+    position: relative;
+    top: 470px;
+    margin-left: 100px;
+    width: fit-content;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    border: transparent;
+    border-radius: 20px;
+    color: burlywood;
+}
+#secranking{
+    background-color: rgba(0, 0, 0, 0.589);
+    position: relative;
+    top: 483px;
+    margin-left: 380px;
+    width: fit-content;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    border: transparent;
+    border-radius: 20px;
+    color: burlywood;
+}
+#thidranking{
+    background-color: rgba(0, 0, 0, 0.589);
+    position: relative;
+    top: 498px;
+    margin-left: 120px;
+    width: fit-content;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    border: transparent;
+    border-radius: 20px;
+    color: burlywood;
+}
+#fourranking{
+    background-color: rgba(0, 0, 0, 0.589);
+    position: relative;
+    top: 510px;
+    margin-left: 380px;
+    width: fit-content;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    border: transparent;
+    border-radius: 20px;
+    color: burlywood;
+}
+#vid{
+     width: 500px;
+     height: 500px;
+     position: relative;
+     left: 800px;
+     bottom: 60px;
+}
+#lastimg::before{
+    background: url("./fghj.jpg") no-repeat center center/cover ;
+    content: "";
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 700px;
+    opacity: 1.9;
+    margin-top: 50px;
+}
+.hooo{
+    margin-left: 20px;
+    color: burlywood;
+}
+#form{
+    margin-left: 20px;
+    display: flex;
+    color: black;
+}
+#qs{
+    background-color: rgba(128, 128, 128, 0.452);
+    margin-left: 80px;
+    position: relative;
+    top: 100px;
+    padding: 20px;
+    margin-right: 450px;
+}
+#lastbut{
+    padding: 5px 40px 5px 40px;
+    border-radius: 30px;
+    margin-left: 80px;
+    background-color: burlywood;
+    color: black;
+}
+#lastsec{
+    background-color: rgba(0, 0, 0, 0.699);
+    position: absolute;
+    top: 3990px;
+    left: 960px;
+    padding: 20px;
+    border-radius: 30px;
+    color: burlywood;
+}
+#footer{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    position: relative;
+    top: 130px;
 }
