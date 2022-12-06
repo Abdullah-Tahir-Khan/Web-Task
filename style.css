@@ -8,7 +8,7 @@ body::before{
     height: 2050px;
 }
 #bacimg::before{
-    background: url(./capture.png) no-repeat center center/cover ;
+    background: url(./pictures/capture.png) no-repeat center center/cover ;
     content: "";
     position: absolute;
     width: 100%;
@@ -92,7 +92,7 @@ body::before{
     border: transparent;
 }
 #secimg::before{
-    background: url("./qwe.jpg") no-repeat center center/cover ;
+    background: url("./pictures/qwe.jpg") no-repeat center center/cover ;
     content: "";
     position: absolute;
     width: 100%;
@@ -267,7 +267,7 @@ body::before{
     border-radius: 25px 25px 0px 0px;
 }
 #thiidimg::before{
-    background: url("./thid.jpg") no-repeat center center/cover ;
+    background: url("./pictures/thid.jpg") no-repeat center center/cover ;
     content: "";
     position: absolute;
     width: 100%;
@@ -305,7 +305,7 @@ body::before{
       bottom: 115px;
 }
 #fffourimg::before{
-    background: url("./com.webp") no-repeat center center/cover ;
+    background: url("./pictures/com.webp") no-repeat center center/cover ;
     content: "";
     position: absolute;
     width: 100%;
@@ -415,7 +415,7 @@ body::before{
     border: transparent;
 }
 #mkl::before{
-    background: url("./uni.jpg") no-repeat center center/cover ;
+    background: url("./pictures/uni.jpg") no-repeat center center/cover ;
     content: "";
     position: absolute;
     width: 100%;
@@ -494,7 +494,7 @@ body::before{
      bottom: 60px;
 }
 #lastimg::before{
-    background: url("./fghj.jpg") no-repeat center center/cover ;
+    background: url("./pictures/fghj.jpg") no-repeat center center/cover ;
     content: "";
     position: absolute;
     width: 100%;
